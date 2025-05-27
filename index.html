@@ -1,0 +1,918 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./lib/fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="./lib/bootstrap-4.5.3-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <title>Kidz-World</title>
+</head>
+
+<body style="background-color: #E9F7EF">
+    <!-- NavBar -->
+    <nav id="navmenu" class="navbar navbar-expand-lg sticky-top">
+        <a class="navbar-brand" href="#home">
+            <img src="./Images/logo/icon.jpg" width="30" height="30" class="d-inline-block align-top"  loading="lazy">
+            <span>Kidz-World</span></br>
+        </a>
+        <button id="nav-toggle" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span id="nav-toggle-icon" class="fas fa-ellipsis-v"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul id="navmenu-links" class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#home">Home</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Project Scope
+              </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#project-scope">Literature Survey</a>
+                        <a class="dropdown-item" href="#research_gap">Research Gap</a>
+                        <a class="dropdown-item" href="#research_problem">Research Problem & Solution</a>
+                        <a class="dropdown-item" href="#research_objectives">Research Objectives</a>
+                        <a class="dropdown-item" href="#methodology">Methodology</a>
+                        <a class="dropdown-item" href="#tech_used">Technologies</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#milestones">Milestones</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Downloads
+                </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#downloads">Documents</a>
+                        <a class="dropdown-item" href="#presentations">Presentations</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#about">About Us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact Us</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!-- Home -->
+    <section id="home">
+        <div class="container">
+            <div class="hero-cta">
+                <h1>Education at your fingertips.👆</h1>
+                <h5>The project aims to create a machine learning-based Web application for nursery school children to enhancing and improving early childhood education.</h5>
+                <h3>Main features :</h3>
+                <h4>1️⃣ Improve Nursery school children's speaking skills using voice recognition machine learning techniques.</h4>
+                <h4>2️⃣ AI-Powered Coloring Skill Development for Nursery school children. </h4>
+                <h4>3️⃣ Personalized Learning and Risk Assessment System with image processing. </h4>
+                <h4>4️⃣ Drawing skills improvement with simple drawing quizzes, using Image processing technology. </h4>
+                <br>
+                <a class="btn btn-outline-light" type="button" href="#project-scope"><span class="btn-text">Learn More</span><span class="fas fa-chevron-right btn-icon"></span></a>
+            </div>
+        </div>
+        <div class="hero-cover">
+            <img class="hero-image" src="./Images/other/background.jpg" />
+        </div>
+    </section>
+    <!-- project-scope -->
+    <section id="project-scope" class="main-sections" style="background-color:#FDFEFE">
+        <div class="container">
+            <h5 class="section-headings">Project Scope</h5>
+            <!-- Literature Survey -->
+            <div id="literature" class="sub-section">
+                <h2>Literature Survey</h2>
+                <div class="row">
+                    <div id="project-scope-left" class="col-md-6 col-sm-12 pt-lg-5">
+                        <div class="section-left">
+                      <div class="section-figure " >
+                        <img style="align-items:center" src="./Images/lit/stat.png" width="100%"/>
+                        <p>Figure 1. Learning Management System Market Trends [1]</p>
+                        <br>
+                        <br>
+                        <br>
+                        <img style="align-items:center" src="./Images/lit/stat1.png" width="100%"/>
+                        <p>Figure 2. Smart Education and Learning Market Overview [2]</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div id="project-scope-right" class="col-md-6 col-sm-12 pt-lg-5 justify-text">
+					<p>Early childhood is a critical period for developing communication, cognitive, and motor skills. Traditional Montessori methods, although effective in nurturing creativity and independence, often lack the personalized feedback necessary to address individual learning gaps in nursery school children [1]. Recent advances in machine learning (ML) and artificial intelligence (AI) have opened new avenues to address these limitations. For instance, Gerosa et al. identified challenges in speech recognition for children due to variability in pitch and fluency, proposing child-specific ASR models to improve recognition rates [2]. Building upon this, Xu et al. introduced a DNN-based voice assistant that provides real-time feedback to enhance preschoolers' language skills in noisy environments [3].</p>
+				  <p>Alharbi et al. highlighted the significance of adaptive learning systems powered by AI, which can personalize the learning journey, thereby improving engagement and language outcomes [4]. To support this, Sharma et al. proposed a computer vision system to monitor attention in online learning, which is highly relevant for tracking engagement in nursery-level educational platforms [5].</p>
+          <p>Finally, integrating risk assessment and personalized learning through facial expression analysis and attention tracking has shown potential in identifying early signs of disengagement or difficulty. Tools like EfficientNet and GazeML have been used to track behavioral patterns in real time, helping tailor learning pathways and enhance classroom safety [6].</p>         
+          <p>These studies collectively underscore the promise of machine learning in revolutionizing early education, offering objective, scalable, and adaptive solutions that support the holistic development of nursery school children.</p>
+          <div class="references">
+                      <p class="pt-sm-1"><strong>References</strong></p>
+                      <ol>
+                        <li>M. Messaoud and I. Aouria, “The AI-driven age detection in children's drawings,” Studies in Engineering and Exact Sciences, 2024.</li>
+                        <li>M. Gerosa et al., “Acoustic variability and automatic recognition of children's speech,” Speech Communication, 2009.</li>
+                        <li>Y. Xu et al., “A deep neural network-based voice assistant for preschool children's language learning,” IEEE Transactions on Learning Technologies, 2017.</li>
+                        <li>A. Alharbi et al., “AI-based personalized learning systems: A systematic review,” ICAIED, 2023.</li>
+                        <li>L. Sharma et al., “Engagement tracking in online learning environments using computer vision,” Journal of Educational Technology & Society, 2020.</li>
+                        <li>J. Zhang et al., “GazeML: A Machine Learning Framework for Gaze Tracking,” IEEE Transactions on Human-Machine Systems, 2020.</li>
+                      </ol>
+                    </div>
+                  </div>
+                </div>
+            </div>
+            <!-- Research Gap -->
+            <div id="research_gap" class="sub-section" >
+              <h2>Research Gap</h2>
+              <p>Following areas are the key research gaps identified in recent studies on early childhood education and technology integration:</p>
+              <div class="row mt-5 research-gap">
+			<div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="fa-container text-center">
+                        <i class="fas fa-speaker fa-3x " aria-hidden="true" style="color: green; "></i>
+                    </div>
+                    <div class="text-center" style="padding-top: 20px;">
+                        <h5>Limited Speech Recognition Adapted for Young Children </h5>
+                    </div>
+                    <div>
+                        <p style="text-align: justify;"> Current speech recognition systems are primarily developed for adult users. These systems struggle with the high variability in pitch, pronunciation, and fluency of nursery-aged children, leading to inaccurate feedback and limited learning support.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="fa-container text-center">
+                        <i class="fas fa-s-line fa-3x " aria-hidden="true" style="color: green;"></i>
+                    </div>
+                    <div class="text-center" style="padding-top: 20px;">
+                        <h5>Lack of Objective Drawing and Coloring Skill Evaluation</h5>
+                    </div>
+                    <div>
+                        <p style="text-align: justify;">Traditional assessment of children's artistic abilities relies on subjective human judgment. There is a lack of AI-powered tools that provide real-time, objective, and personalized feedback on children's drawing and coloring efforts, limiting creativity-focused skill development.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="fa-container text-center">
+                        <i class="fas fa-lights fa-3x " aria-hidden="true" style="color: green;"></i>
+                    </div>
+                    <div class="text-center" style="padding-top: 20px;">
+                        <h5>Minimal Use of Risk and Attention Monitoring in Classrooms</h5>
+                    </div>
+                    <div>
+                        <p style="text-align: justify;">Real-time tracking of student engagement and early identification of learning difficulties is largely unexplored in nursery school settings. Integrating image processing and behavior analytics for risk assessment remains an underdeveloped area.
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+			</div> 
+              </div>
+          </div>
+            <!-- Research Problem -->
+            <div id="research_problem" class="sub-section">
+              <h2>Research Problem & Solution</h2>
+			   <div class="row">
+                <div id="project-scope-left" class="col-md-6 col-sm-12 pt-lg-5 justify-text">
+                 <h5><strong>Proposed Problem</strong></h5>
+				 </br>
+					<h4 class="highlight">How can machine learning be used to personalize learning and improve speaking, drawing, and cognitive skills in nursery school children?</h4>
+					<p></p>
+					<p style="text-align: justify;">Early childhood education in Sri Lanka often relies on traditional, one-size-fits-all teaching methods. These approaches do not effectively support the unique learning needs and developmental stages of each child. As a result, children may struggle with essential skills like speaking, drawing, and color recognition. Furthermore, there is limited use of real-time feedback or objective assessment to guide improvements.
+          This gap highlights the need for a smart learning platform that integrates machine learning, voice recognition, and image processing. Such a system can offer personalized feedback, monitor student engagement, and assess skills like drawing and coloring with high accuracy. This research aims to develop an AI-driven solution that supports individual learning journeys, fosters creativity, and equips educators and parents with meaningful insights.
+          </p>
+				</br>
+				</div>
+
+				<div id="project-scope-right" class="col-md-6 col-sm-12 pt-lg-5">
+                  <div class="section-left">
+                    <div class="section-figure">
+                      <iframe width="100%" height="400" src="https://www.youtube.com/embed/JMLsHI8aV0g?si=Qjf2vNhuVujU0AGZ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                      <p>How China Is Using Artificial Intelligence in Classrooms</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+			     <div>
+				 <h5><strong>Proposed Solution</strong></h5>
+				 </br>
+				 <p style="text-align: justify;"> Our research introduces a Machine Learning-based Smart Learning Platform designed to enhance early childhood education through four key modules: Speaking Skills Development, Drawing Skills Enhancement, Personalized Learning and Risk Assessment, and AI-Driven Coloring Skill Development. The platform leverages advanced technologies such as speech recognition, image processing, and adaptive learning algorithms to provide personalized, real-time feedback tailored to each child's developmental needs. For speaking skills, the system analyzes pitch, loudness, and speech rate to offer corrective guidance, while the drawing module objectively evaluates artwork against predefined benchmarks to improve accuracy and creativity. The coloring module uses AI to assess color recognition and blending skills, delivering customized exercises to refine fine motor skills. Additionally, the platform incorporates facial analysis and engagement tracking to monitor learning progress and identify potential risks, ensuring a safe and adaptive learning environment. By integrating these technologies into Montessori education, the platform aims to create an interactive, data-driven system that fosters independence, creativity, and confidence in nursery school children, while providing educators and parents with actionable insights into each child's development.	</P>
+                </div>
+          </div>
+            <!-- Research Objectives -->
+		   <div id="research_objectives" class="sub-section">
+        <div class="container">
+          <h2 class="pb-5 pt-5 text-center mb-5 display-5">Research Objectives</h2>
+          <!-- First Content Section-->
+          <div class="row align-items-center connecting-lines d-flex">
+            <div class="col-2 text-center bottom d-inline-flex justify-content-center align-items-center">
+              <div class="circle font-weight-bold"><i class="fa fa-star"></i></div>
+            </div>
+            <div class="col-6">
+              <h4>Enhancing Speaking Skills through Voice Recognition</h4>
+              <p style="text-align: justify;">The first objective is to improve the speaking abilities of nursery school children by implementing a voice recognition system. Using machine learning, the system analyzes speech features such as pitch, pronunciation, and speed to provide real-time, personalized feedback. This helps children practice language more effectively while enabling teachers to track progress and intervene when needed.</p>
+            </div>
+          </div>
+          <!-- Path Line -->
+          <div class="row timeline_s">
+            <div class="col-2">
+              <div class="corner top-right"></div>
+            </div>
+            <div class="col-8">
+              <hr/>
+            </div>
+            <div class="col-2">
+              <div class="corner left-bottom"></div>
+            </div>
+          </div>
+          <!-- Second Content Section-->
+          <div class="row align-items-center justify-content-end connecting-lines d-flex">
+            <div class="col-6 text-right">
+              <h4>Evaluating and Improving Drawing Skills Using Image Processing</h4>
+              <p style="text-align: justify;">The second objective is to create a solution that evaluates children’s drawing skills by comparing their artwork with reference shapes using image processing. Techniques such as edge detection and shape matching are used to assess accuracy, proportion, and creativity. Feedback will be automatically generated to guide the child in skill improvement, fostering cognitive and fine motor development.</p>
+            </div>
+            <div class="col-2 text-center full d-inline-flex justify-content-center align-items-center">
+              <div class="circle font-weight-bold"><i class="fa fa-star"></i></div>
+            </div>
+          </div>
+          <!-- Path Line -->
+          <div class="row timeline_s">
+            <div class="col-2">
+              <div class="corner right-bottom"></div>
+            </div>
+            <div class="col-8">
+              <hr/>
+            </div>
+            <div class="col-2">
+              <div class="corner top-left"></div>
+            </div>
+          </div>
+          <!-- Third Content Section -->
+          <div class="row align-items-center connecting-lines d-flex">
+            <div class="col-2 text-center full d-inline-flex justify-content-center align-items-center">
+              <div class="circle font-weight-bold"><i class="fa fa-star"></i></div>
+            </div>
+            <div class="col-6">
+              <h4> Developing AI-Powered Coloring Skill Assessment</h4>
+              <p style="text-align: justify;">
+                The third objective is to assess coloring tasks performed by children using deep learning models like CNNs. The system identifies parameters such as color choice, stroke consistency, and area coverage. These metrics help determine the child’s understanding of color theory and motor control. Adaptive exercises will be recommended based on the assessment outcomes to enhance learning.
+              </p>
+            </div>
+          </div>
+		   <!-- Path Line -->
+
+          <div class="row timeline_s">
+            <div class="col-2">
+              <div class="corner top-right"></div>
+            </div>
+            <div class="col-8">
+              <hr/>
+            </div>
+            <div class="col-2">
+              <div class="corner left-bottom"></div>
+            </div>
+          </div>
+          <!-- Second Content Section-->
+          <div class="row align-items-center justify-content-end connecting-lines d-flex">
+            <div class="col-6 text-right">
+              <h4> Personalized Learning and Risk Assessment through Engagement Monitoring</h4>
+              <p style="text-align: justify;">The fourth objective is to implement a personalized learning path and real-time risk assessment by tracking children's engagement levels through facial expressions and behavior analysis. Using computer vision and gaze-tracking algorithms, the system monitors attention span and emotional cues, ensuring each child receives tailored educational support and timely interventions when disengagement is detected.</p>
+            </div>
+            <div class="col-2 text-center full d-inline-flex justify-content-center align-items-center">
+              <div class="circle font-weight-bold"><i class="fa fa-star"></i></div>
+            </div>
+          </div>
+          <!-- Path Line -->
+          <div class="row timeline_s">
+            <div class="col-2">
+              <div class="corner right-bottom"></div>
+            </div>
+            <div class="col-8">
+              <hr/>
+            </div>
+            <div class="col-2">
+              <div class="corner top-left"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+            <!-- Methodology -->
+            <div id="methodology" class="sub-section">
+              <h2>Methodology</h2>
+              <div class="row">
+                <div id="project-scope-left" class="col-md-6 col-sm-12 pt-lg-5">
+                  <div class="section-left">
+                    <div class="section-figure">
+                      <img src="./Images/other/architecture.jpg" width="100%" height="400"/>
+                      <p>Figure 3. overall System diagram.</p>
+                    </div>
+                  </div>
+                </div>
+                <div id="project-scope-right" class="col-md-6 col-sm-12 pt-lg-5 justify-text">
+                  <p>The proposed system consists of 4 main components. They are;</p>
+                  <ol>
+                    <li><strong>Improve Nursery school children's speaking skills using voice recognition machine learning techniques.</strong></li>
+                    <li><strong>Drawing skills improvement with simple drawing quizzes, using image processing technology</strong></li>
+                    <li><strong>AI-Powered Coloring Skill Development for Nursery school children. </strong></li>
+					          <li><strong>Personalized Learning and Risk Assessment System with image processing. </strong></li>
+                  </ol>
+				  <p>The Overall System Diagram illustrates a Smart Learning Platform that integrates Artificial Intelligence (AI) and Machine Learning (ML) to enhance early childhood education. This system is designed to support nursery school children in four key areas: improved speaking skills, learning and risk assessment, drawing skills improvement, and coloring skill development. By leveraging AI-driven data collection, processing, and analysis, the platform provides personalized learning experiences that adapt to each child's abilities and progress</p>
+				  <p>The system begins by gathering input from the four learning components. Each component corresponds to a specific skill set, such as speech improvement through voice interactions, behavioral assessments to monitor learning risks, and fine motor skill evaluation through drawing and coloring tasks. These interactions are recorded and processed by the Smart Learning Platform, ensuring that relevant data is collected for further analysis.</p>
+                </div>
+              </div>
+          </div>
+            <!-- Technologies Used -->
+            <div id="tech_used" class="sub-section">
+              <h2>Technologies Used</h2>
+              <div class="row technology mt-5">
+                <div class="col-md-2 col-sm-4 col-6 mb-5">
+                  <div class="avatar">
+                    <img src="./Images/tech/python.png" alt="Python">
+                  </div>
+                  <p>Python</p>
+                </div>
+                <div class="col-md-2 col-sm-4 col-6 mb-5">
+                  <div class="avatar">
+                    <img src="./Images/tech/react.png" alt="React">
+                  </div>
+                  <p>React</p>
+                </div>
+                <div class="col-md-2 col-sm-4 col-6 mb-5">
+                  <div class="avatar">
+                    <img src="./Images/tech/node.png" alt="React">
+                  </div>
+                  <p>Node</p>
+                </div>
+                <div class="col-md-2 col-sm-4 col-6 mb-5">
+                  <div class="avatar">
+                    <img src="./Images/tech/Express.png" alt="React">
+                  </div>
+                  <p>Express JS</p>
+                </div>
+                <div class="col-md-2 col-sm-4 col-6 mb-5">
+                  <div class="avatar">
+                    <img src="./Images/tech/mongo.jpg" alt="MongoDB">
+                  </div>
+                  <p>MongoDB</p>
+                </div>
+                <div class="col-md-2 col-sm-4 col-6 mb-5">
+                  <div class="avatar">
+                    <img src="./Images/tech/firebase.png" alt="Firebase">
+                  </div>
+                  <p>Firebase</p>
+                </div>
+				<div class="col-md-2 col-sm-4 col-6 mb-5">
+                  <div class="avatar">
+                    <img src="./Images/tech/googlecloud.png" alt="Google Cloud">
+                  </div>
+                  <p>Google Cloud</p>
+                </div>
+				<div class="col-md-2 col-sm-4 col-6 mb-5">
+                  <div class="avatar">
+                  <img src="./Images/tech/googlevoice.png" alt="Google Cloud">
+                  </div>
+                  <p>Google Voice</p>
+                </div>
+				<div class="col-md-2 col-sm-4 col-6 mb-5">
+                  <div class="avatar">
+                    <img src="./Images/tech/doker.png" alt="Doker">
+                  </div>
+                  <p>Doker</p>
+                </div>
+				<div class="col-md-2 col-sm-4 col-6 mb-5">
+                  <div class="avatar">
+                  <img src="./Images/tech/opencv.png" alt="Doker">  
+                  </div>
+                  <p>Open CV</p>
+                </div>
+				<div class="col-md-2 col-sm-4 col-6 mb-5">
+                  <div class="avatar">
+                   <img src="./Images/tech/mysql.jpg" alt="Doker">  
+                  </div>
+                 <p>My SQL</p>
+                </div>
+				<div class="col-md-2 col-sm-4 col-6 mb-5">
+                  <div class="avatar">
+                    <img src="./Images/tech/jwt.png" alt="Jwt">
+                  </div>
+                  <p>Jwt</p>
+                </div>
+          </div>
+        </div>
+      </section>
+      <!-- Milestones -->
+      <section id="milestones" class="main-sections" >
+        <div class="container">
+            <h5 class="section-headings">Milestones</h5>
+            <div class="sub-section">
+                <h2>Timeline in Brief</h2>
+                <div class="milestones">
+                  <ul class="timeline">
+                    <!-- Project Proposal -->
+                    <li class="timeline-event">
+                      <label class="timeline-event-icon"></label>
+                      <div class="timeline-event-copy">
+                        <p class="timeline-event-thumbnail">August 2024</p>
+                        <h3>Project Proposal</h3>
+                        <p>A Project Proposal is presented to the panel for project approved.</p>
+                        <p><strong>Marks Allocated : </strong>6</p>
+                        <div class="progress">
+                          <div class="progress-bar bg-success" role="progressbar" style="width: 6%" aria-valuenow="12" aria-valuemin="0" aria-valuemax="100">6%</div>
+                        </div>
+                      </div>
+                    </li>
+                    <!-- Progress Presentation I -->
+                    <li class="timeline-event">
+                      <label class="timeline-event-icon"></label>
+                      <div class="timeline-event-copy">
+                        <p class="timeline-event-thumbnail">December 2024</p>
+                        <h3>Progress Presentation I</h3>
+                        <p>Progress Presentation I reviews the 50% completetion status of the project. This reveals any gaps or inconsistencies in the design/requirements.</p>
+                        <p><strong>Marks Allocated : </strong>6</p>
+                        <div class="progress">
+                          <div class="progress-bar bg-infinity-primary" role="progressbar" style="width: 12%" aria-valuenow="13" aria-valuemin="0" aria-valuemax="100"></div>
+                          <div class="progress-bar bg-success" role="progressbar" style="width: 6%" aria-valuenow="15" aria-valuemin="0" aria-valuemax="100">6%</div>
+                        </div>
+                      </div>
+                    </li>
+                    <!-- Progress Presentation II -->
+                    <li class="timeline-event">
+                      <label class="timeline-event-icon"></label>
+                      <div class="timeline-event-copy">
+                        <p class="timeline-event-thumbnail">February 2025</p>
+                        <h3>Progress Presentation II</h3>
+                        <p>Progress Presentation II reviews the 90% completetion status demonstration of the project. Along with a Poster presesntation which describes the project as a whole.</p>
+                        <p><strong>Marks Allocated : </strong>10</p>
+                        <div class="progress">
+                          <div class="progress-bar bg-infinity-primary" role="progressbar" style="width: 27%" aria-valuenow="27" aria-valuemin="0" aria-valuemax="100"></div>
+                          <div class="progress-bar bg-success" role="progressbar" style="width: 10%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100">10%</div>
+                        </div>
+                      </div>
+                    </li>
+                    <!-- Research Paper -->
+                    <li class="timeline-event">
+                      <label class="timeline-event-icon"></label>
+                      <div class="timeline-event-copy">
+                        <p class="timeline-event-thumbnail">March 2025</p>
+                        <h3>Research Paper</h3>
+                        <p>Describes what you contribute to existing knowledge, giving due recognition to all work that you referred in making new knowledge</p>
+                        <p><strong>Marks Allocated : </strong>18</p>
+                        <div class="progress">
+                          <div class="progress-bar bg-infinity-primary" role="progressbar" style="width: 37%" aria-valuenow="37" aria-valuemin="0" aria-valuemax="100"></div>
+                          <div class="progress-bar bg-success" role="progressbar" style="width: 18%" aria-valuenow="18" aria-valuemin="0" aria-valuemax="100">18%</div>
+                        </div>
+                      </div>
+                    </li>
+                    <!-- Final Report -->
+                    <li class="timeline-event">
+                      <label class="timeline-event-icon"></label>
+                      <div class="timeline-event-copy">
+                        <p class="timeline-event-thumbnail">April 2025</p>
+                        <h3>Final Report</h3>
+                        <p>Final Report evalutes the completed project done throughout the year. Marks mentioned below includes marks for Individual & group reports and also Final report.</p>
+                        <p><strong>Marks Allocated : </strong>19</p>
+                        <div class="progress">
+                          <div class="progress-bar bg-infinity-primary" role="progressbar" style="width: 61%" aria-valuenow="61" aria-valuemin="0" aria-valuemax="100"></div>
+                          <div class="progress-bar bg-success" role="progressbar" style="width: 19%" aria-valuenow="29" aria-valuemin="0" aria-valuemax="100">19%</div>
+                        </div>
+                      </div>
+                    </li>
+                    <!-- Progress Presentation III -->
+                    <li class="timeline-event">
+                      <label class="timeline-event-icon"></label>
+                      <div class="timeline-event-copy">
+                        <p class="timeline-event-thumbnail">May 2025</p>
+                        <h3>Progress Presentation III</h3>
+                        <p>Progress Presentation III reviews the 100% completetion status demonstration of the project. Along with a Poster presesntation which describes the project as a whole.</p>
+                        <p><strong>Marks Allocated : </strong>18</p>
+                        <div class="progress">
+                          <div class="progress-bar bg-infinity-primary" role="progressbar" style="width: 37%" aria-valuenow="37" aria-valuemin="0" aria-valuemax="100"></div>
+                          <div class="progress-bar bg-success" role="progressbar" style="width: 18%" aria-valuenow="18" aria-valuemin="0" aria-valuemax="100">18%</div>
+                        </div>
+                      </div>
+                    </li>
+                    <!-- Website -->
+                    <li class="timeline-event">
+                      <label class="timeline-event-icon"></label>
+                      <div class="timeline-event-copy">
+                        <p class="timeline-event-thumbnail">June 2025</p>
+                        <h3>Website Assessment</h3>
+                        <p>The Website helps to promote our research project and reveals all details related to the project.</p>
+                        <p><strong>Marks Allocated : </strong>2</p>
+                        <div class="progress">
+                          <div class="progress-bar bg-infinity-primary" role="progressbar" style="width: 55%" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100"></div>
+                          <div class="progress-bar bg-success" role="progressbar" style="width: 2%" aria-valuenow="2" aria-valuemin="0" aria-valuemax="100">2%</div>
+                        </div>
+                      </div>
+                    </li>
+                    <!-- Logbook -->
+                    <li class="timeline-event">
+                      <label class="timeline-event-icon"></label>
+                      <div class="timeline-event-copy">
+                        <p class="timeline-event-thumbnail">June 2025</p>
+                        <h3>Logbook</h3>
+                        <p>Status of the project is validated through the Logbook. This also includes, Status documents 1 & 2.</p>
+                        <p><strong>Marks Allocated : </strong>3</p>
+                        <div class="progress">
+                          <div class="progress-bar bg-infinity-primary" role="progressbar" style="width: 57%" aria-valuenow="57" aria-valuemin="0" aria-valuemax="100"></div>
+                          <div class="progress-bar bg-success" role="progressbar" style="width: 3%" aria-valuenow="4" aria-valuemin="0" aria-valuemax="100">3%</div>
+                        </div>
+                      </div>
+                    </li>
+                    <!-- Viva -->
+                    <li class="timeline-event">
+                      <label class="timeline-event-icon"></label>
+                      <div class="timeline-event-copy">
+                        <p class="timeline-event-thumbnail">June  2025</p>
+                        <h3>Final Presentation & Viva</h3>
+                        <p>Viva is held individually to assess each members contribution to the project.</p>
+                        <p><strong>Marks Allocated : </strong>20</p>
+                        <div class="progress">
+                          <div class="progress-bar bg-infinity-primary" role="progressbar" style="width: 90%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                          <div class="progress-bar bg-success" role="progressbar" style="width: 20%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100">10%</div>
+                        </div>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+            </div>
+        </div>
+      </section>
+      <!-- Downloads -->
+      <section id="downloads" class="main-sections" >
+        <div class="container">
+            <h5 class="section-headings">Downloads</h5>
+            <!-- Documents -->
+            <div class="sub-section">
+                <h2>Documents</h2>
+                <p>Please find all documents related to this project below.</p>
+                <div class="row mt-sm-5 downloads-container">
+				 <!-- Topic Assessment -->
+                  <div class="col-lg-3 col-md-4 col-sm-12">
+                    <div class="card" >
+                      <div class="card-body">
+                        <h5 class="card-title"><i class="fas fa-file-pdf mr-2 download-pdf"></i>Topic Assessment</h5>
+                        <p class="card-text pt-sm-2">Submitted on 2024/02/25</p>
+                      </div>
+                      <ul class="download-items list-group list-group-flush">
+                        <li class="list-group-item">Group<a href="https://drive.google.com/file/d/1m12kXCc3ZuoS-kmIntJbwp0XNyNv8lBf/view?usp=sharing" target="_blank">Download</a></li>
+                        <!-- <li class="list-group-item">Individual<a href="">Download</a></li> -->
+                      </ul>
+
+                    </div>
+                  </div>
+                  <!-- Project Charter -->
+                  <div class="col-lg-3 col-md-4 col-sm-12">
+                    <div class="card" >
+                      <div class="card-body">
+                        <h5 class="card-title"><i class="fas fa-file-pdf mr-2 download-pdf"></i>Project Charter</h5>
+                        <p class="card-text pt-sm-2">Submitted on 2024/02/25</p>
+                      </div>
+                      <ul class="download-items list-group list-group-flush">
+                        <li class="list-group-item">Group<a href="https://drive.google.com/file/d/1m12kXCc3ZuoS-kmIntJbwp0XNyNv8lBf/view?usp=sharing" target="_blank">Download</a></li>
+                        <!-- <li class="list-group-item">Individual<a href="">Download</a></li> -->
+                      </ul>
+
+                    </div>
+                  </div>
+                  <!-- Project Proposal -->
+                  <div class="col-lg-3 col-md-4 col-sm-12">
+                    <div class="card" >
+                      <div class="card-body">
+                        <h5 class="card-title"><i class="fas fa-file-pdf mr-2 download-pdf"></i>Project Proposal</h5>
+                        <p class="card-text pt-sm-2">Submitted on 2024/03/22</p>
+                      </div>
+                      <ul class="download-items list-group list-group-flush">
+                        <li class="list-group-item">Group<a href="https://drive.google.com/file/d/1Fz22Yv1KFfCvJzv_Ur8rqRAIAPb5OCGM/view?usp=sharing" target="_blank">Download</a></li>
+                      </ul>
+
+                    </div>
+                  </div>
+                  <!-- Status Documents -->
+                  <div class="col-lg-3 col-md-4 col-sm-12">
+                    <div class="card" >
+                      <div class="card-body">
+                        <h5 class="card-title"><i class="fas fa-file-pdf mr-2 download-pdf"></i>Check List I</h5>
+                        <p class="card-text pt-sm-2">Submitted on 2024/07/05</p>
+                      </div>
+                      <ul class="download-items list-group list-group-flush">
+                        <!-- <li class="list-group-item">Group<a href="">Download</a></li> -->
+                        <li class="list-group-item">Group<a href="" target="_blank">Download</a></li>
+                      </ul>
+
+                    </div>
+                  </div>
+                  <!-- Status Documents -->
+                  <div class="col-lg-3 col-md-4 col-sm-12">
+                    <div class="card" >
+                      <div class="card-body">
+                        <h5 class="card-title"><i class="fas fa-file-pdf mr-2 download-pdf"></i>Check List II</h5>
+                        <p class="card-text pt-sm-2">Submitted on 2025/01/05</p>
+                      </div>
+                      <ul class="download-items list-group list-group-flush">
+                        <!-- <li class="list-group-item">Group<a href="">Download</a></li> -->
+                        <li class="list-group-item">Group<a href="" target="_blank">Download</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                  <!-- Research -->
+                  <div class="col-lg-3 col-md-4 col-sm-12">
+                    <div class="card" >
+                      <div class="card-body">
+                        <h5 class="card-title"><i class="fas fa-file-pdf mr-2 download-pdf"></i>Research Paper</h5>
+                        <p class="card-text pt-sm-2">Submitted on 2025/04/11</p>
+                      </div>
+                      <ul class="download-items list-group list-group-flush">
+                        <li class="list-group-item">Group<a href="https://drive.google.com/file/d/15F2X8yhNFNwuCIvqilXnxJbLMYaQ8iTP/view?usp=sharing" target="_blank">Download</a></li>
+                      </ul>
+
+                    </div>
+                  </div>
+                  <!-- Final Report -->
+                  <div class="col-lg-3 col-md-4 col-sm-12">
+                    <div class="card" >
+                      <div class="card-body">
+                        <h5 class="card-title"><i class="fas fa-file-pdf mr-2 download-pdf"></i>Final Report</h5>
+                        <p class="card-text pt-sm-2">Submitted on 2025/16/13</p>
+                      </div>
+                      <ul class="download-items list-group list-group-flush">
+                        <li class="list-group-item">Group<a href="https://drive.google.com/file/d/1zRxaCpSdRmbfraHMmlz20NdQKuNCrqDs/view?usp=sharing" target="_blank">Download</a></li>
+                        <li class="list-group-item">Individual<a href="https://drive.google.com/drive/folders/1R1ZAgf-C0vUyDAiEh4FyQfVVJpegJz6Z?usp=sharing" target="_blank">Download</a></li>
+                      </ul>
+
+                    </div>
+                  </div>
+                  <!-- Poster -->
+                  <div class="col-lg-3 col-md-4 col-sm-12">
+                    <div class="card" >
+                      <div class="card-body">
+                        <h5 class="card-title"><i class="fas fa-file-image mr-2 download-image"></i>Poster</h5>
+                        <p class="card-text pt-sm-2">Submitted on 2025/05/14</p>
+                      </div>
+                      <ul class="download-items list-group list-group-flush">
+                        <li class="list-group-item">Group<a href="" target="_blank">Download</a></li>
+                      </ul>
+
+                    </div>
+                  </div>
+                </div>
+            </div>
+            <!-- Presentations -->
+            <div id="presentations" class="sub-section">
+                <h2>Presentations</h2>
+                <p>Please find all presentations related this project below.</p>
+                <div class="row mt-sm-5 downloads-container">
+                  <!-- Project Proposal -->
+                  <div class="col-lg-3 col-md-4 col-sm-12">
+                    <div class="card" >
+                      <div class="card-body">
+                        <h5 class="card-title"><i class="fas fa-file-powerpoint mr-2 download-powerpoint"></i></i>Project Proposal</h5>
+                        <p class="card-text pt-sm-2">Submitted on 2024/03/14</p>
+                      </div>
+                      <ul class="download-items list-group list-group-flush">
+                        <li class="list-group-item">Group<a href="https://docs.google.com/presentation/d/1hbJoU0G-Nl8ZZhZXNAMuJSzPSZpmvf7j/edit?usp=sharing&ouid=113517565240574349369&rtpof=true&sd=true" target="_blank">Download</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                  <!-- Progress Presentation I -->
+                  <div class="col-lg-3 col-md-4 col-sm-12">
+                    <div class="card" >
+                      <div class="card-body">
+                        <h5 class="card-title"><i class="fas fa-file-powerpoint mr-2 download-powerpoint"></i></i>Progress Presentation I</h5>
+                        <p class="card-text pt-sm-2">Submitted on 2024/12/08</p>
+                      </div>
+                      <ul class="download-items list-group list-group-flush">
+                        <li class="list-group-item">Group<a href="https://docs.google.com/presentation/d/1AuUEVcwfwfGRyL1PN4GDjGCGrn1uaGoM/edit?usp=sharing&ouid=113517565240574349369&rtpof=true&sd=true" target="_blank">Download</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                  <!-- Progress Presentation II -->
+                  <div class="col-lg-3 col-md-4 col-sm-12">
+                    <div class="card" >
+                      <div class="card-body">
+                        <h5 class="card-title"><i class="fas fa-file-powerpoint mr-2 download-powerpoint"></i></i>Progress Presentation II</h5>
+                        <p class="card-text pt-sm-2">Submitted on 2025/02/18</p>
+                      </div>
+                      <ul class="download-items list-group list-group-flush">
+                        <li class="list-group-item">Group<a href="https://docs.google.com/presentation/d/1AuUEVcwfwfGRyL1PN4GDjGCGrn1uaGoM/edit?usp=sharing&ouid=113517565240574349369&rtpof=true&sd=true" target="_blank">Download</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                  <!-- Final Presentation -->
+                  <div class="col-lg-3 col-md-4 col-sm-12">
+                    <div class="card" >
+                      <div class="card-body">
+                        <h5 class="card-title"><i class="fas fa-file-powerpoint mr-2 download-powerpoint"></i></i>Final Presentation</h5>
+                        <p class="card-text pt-sm-2">Yet to be submitted, link will be updated soon.</p>
+                      </div>
+                      <ul class="download-items list-group list-group-flush">
+                        <li class="list-group-item">Group<a href="" target="_blank">Download</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+            </div>
+        </div>
+      </section>
+      <!-- About Us -->
+      <section id="about" class="main-sections " style="background-color:#FDFEFE">
+        <div class="container">
+            <h5 class="section-headings">About Us</h5>
+            <div class="sub-section about-us-container ">
+                <h2>Meet Our Team !</h2>
+                <div class="row  mt-sm-5 ">
+                  <!-- Supervisor -->
+                  <div class="col-lg-3 col-md-4 col-sm-12">
+                    <div class="card about-us-card">
+                      <img src="./Images/dp/supervisor.jpeg" class="about-us-image supervisor" alt="Dr. Janaka Wijekoon" height="30%"/>
+                      <div class="card-body">
+                        <h5 class="card-title">Mr. Supunya Swarnakantha</h5>
+						</br>
+                        <span class="badge badge-secondary">Supervisor</span>
+                                        <div class="text-group">
+                                            <p>Sri Lanka Institute of Information Technology</p>
+                                        </div>
+                                        <div class="text-group">
+                                            <p><strong>Department</strong></p>
+                                            <p>Faculty of Computing</p>
+                                        </div>
+                                    </div>
+                                    <ul class="list-group list-group-flush">
+                                        <li class="list-group-item">
+                                            <a class="card-text" style="cursor: pointer;" href="mailto:ravi.s@sliit.lk"><i class="fas fa-envelope-open-text mr-2"></i></i>E-Mail</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <!-- Co Supervisor -->
+                            <div class="col-lg-3 col-md-4 col-sm-12">
+                                <div class="card about-us-card">
+                                    <img src="./Images/dp/cosupervisor.jpg" class="about-us-image cosupervisor" alt="Ms. Dilani Lunugalage" height="10%"/>
+                                    <div class="card-body">
+                                        <h5 class="card-title">Ms. Thamali Dassanayake</h5>
+                                        </br>
+                                        <span class="badge badge-secondary">Co-Supervisor</span>
+                                        <div class="text-group">
+                                            <p>Sri Lanka Institute of Information Technology</p>
+                                        </div>
+                                        <div class="text-group">
+                                            <p><strong>Department</strong></p>
+                                            <p>Faculty of Computing</p>
+                                        </div>
+                                    </div>
+                                    <ul class="list-group list-group-flush">
+                                        <li class="list-group-item">
+                                            <a class="card-text" style="cursor: pointer;" href="mailto:thamali.d@sliit.lk"><i class="fas fa-envelope-open-text mr-2"></i></i>E-Mail</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                              </div>
+                        </div>
+                        <div class="row  mt-sm-5" style="justify-content: center">
+                            <!-- Kavishka -->
+                            <div class="col-lg-3 col-md-4 col-sm-12">
+                                <div class="card about-us-card">
+                                    <img src="./Images/dp/kavishka.png" class="about-us-image " alt="Vidhanaarachchi S.P" height="20%" />
+                                    <div class="card-body">
+                                        <h5 class="card-title">Iroshan G.K.</h5>
+                                        </br>
+                                        <span class="badge badge-secondary">Group Leader</span>
+                                        <div class="text-group">
+                                            <p><strong>Undergraduate</strong></p>
+                                            <p>Sri Lanka Institute of Information Technology</p>
+                                        </div>
+                                        <div class="text-group">
+                                            <p><strong>Department</strong></p>
+                                            <p>Faculty of Computing</p>
+                                        </div>
+                                    </div>
+                                    <ul class="list-group list-group-flush">
+                                        <li class="list-group-item">
+                                            <a class="card-text mr-4" style="cursor: pointer;" href=""><i class="fab fa-linkedin-in mr-2"></i>LinkedIn</a>
+                                            <a class="card-text" style="cursor: pointer;" href="mailto:"><i class="fas fa-envelope-open-text mr-2"></i></i>E-Mail</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <!-- Miyuru -->
+                            <div class="col-lg-3 col-md-4 col-sm-12">
+                                <div class="card about-us-card">
+                                    <img src="./Images/dp/Miyuru.png" class="about-us-image" alt="Gunasekara R.P.T.I" height="20%" />
+                                    <div class="card-body">
+                                        <h5 class="card-title">Senarathna M.B.</h5>
+                                        </br>
+                                        <span class="badge badge-secondary">Group Member</span>
+                                        <div class="text-group">
+                                            <p><strong>Undergraduate</strong></p>
+                                            <p>Sri Lanka Institute of Information Technology</p>
+                                        </div>
+                                        <div class="text-group">
+                                            <p><strong>Department</strong></p>
+                                            <p>Faculty of Computing</p>
+                                        </div>
+                                    </div>
+                                    <ul class="list-group list-group-flush">
+                                        <li class="list-group-item">
+                                            <a class="card-text mr-4" style="cursor: pointer;" href=""><i class="fab fa-linkedin-in mr-2"></i>LinkedIn</a>
+                                            <a class="card-text" style="cursor: pointer;" href="mailto:"><i class="fas fa-envelope-open-text mr-2"></i></i>E-Mail</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <!-- kalana -->
+                            <div class="col-lg-3 col-md-4 col-sm-12">
+                                <div class="card about-us-card">
+                                    <img src="./Images/dp/kalana.png" class="about-us-image" alt="Akalanka P.K.G.C" height="20%" />
+                                    <div class="card-body">
+                                        <h5 class="card-title">Dewapriya K.L</h5>
+                                        </br>
+                                        <span class="badge badge-secondary">Group Member</span>
+                                        <div class="text-group">
+                                            <p><strong>Undergraduate</strong></p>
+                                            <p>Sri Lanka Institute of Information Technology</p>
+                                        </div>
+                                        <div class="text-group">
+                                            <p><strong>Department</strong></p>
+                                            <p>Faculty of Computing</p>
+                                        </div>
+                                    </div>
+                                    <ul class="list-group list-group-flush">
+                                        <li class="list-group-item">
+                                            <a class="card-text mr-4" style="cursor: pointer;" href=""><i class="fab fa-linkedin-in mr-2"></i>LinkedIn</a>
+                                            <a class="card-text" style="cursor: pointer;" href="mailto:"><i class="fas fa-envelope-open-text mr-2"></i></i>E-Mail</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <!-- sachintha -->
+                            <div class="col-lg-3 col-md-4 col-sm-12">
+                                <div class="card about-us-card">
+                                    <img src="./Images/dp/sachintha.png" class="about-us-image" alt="Rajapaksha H.M.U.D" height="20%" />
+                                    <div class="card-body">
+                                        <h5 class="card-title">Gunawardena W.P.S </h5>
+                                        </br>
+                                        <span class="badge badge-secondary">Group Member</span>
+                                        <div class="text-group">
+                                            <p><strong>Undergraduate</strong></p>
+                                            <p>Sri Lanka Institute of Information Technology</p>
+                                        </div>
+                                        <div class="text-group">
+                                            <p><strong>Department</strong></p>
+                                            <p>Faculty of Computing</p>
+                                        </div>
+                                    </div>
+                                    <ul class="list-group list-group-flush">
+                                        <li class="list-group-item">
+                                            <a class="card-text mr-4" style="cursor: pointer;" href=""><i class="fab fa-linkedin-in mr-2"></i>LinkedIn</a>
+                                            <a class="card-text" style="cursor: pointer;" href="mailto:"><i class="fas fa-envelope-open-text mr-2"></i></i>E-Mail</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    </section>
+
+
+    <!-- Contact Us -->
+    <section id="contact" class="main-sections" style="background-color:#FDFEFE">
+        <div class="container">
+            <h5 class="section-headings">Contact Us</h5>
+            <div class="sub-section">
+                <h2>Get in Touch</h2>
+                <div class="row  mt-sm-5">
+                    <div class="col-md-6 col-sm-12 contact-form">
+                        <form action="MAILTO:researchcoco@gmail.com" method="POST" enctype="text/plain">
+                            <div class="form-group">
+                                <label for="name">Name</label>
+                                <input type="text" class="form-control" id="name" placeholder="John Doe">
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email address</label>
+                                <input type="email" class="form-control" id="email" placeholder="name@example.com">
+                            </div>
+                            <div class="form-group">
+                                <label for="message">Message or Query</label>
+                                <textarea class="form-control" id="message" rows="5"></textarea>
+                            </div>
+                            <button type="submit" class="btn btncolorgradient	">Submit</button>
+                        </form>
+                    </div>
+                    <div class="col-md-6 col-sm-12 contact-details">
+                        <div>
+                            <p><strong>Contact Details</strong></p>
+                            <p>For further queries please reach us at <a href="mailto: it21162114@my.slit.lk">it21162114@my.slit.lk</a></p>
+                            <p>Hope this project helped you in some manner. Thank you!</p>
+                            <p>-Team 24-25J-196 </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Scripts -->
+    <script src="./lib/jquery/jquery-3.5.1.slim.min.js"></script>
+    <script src="./lib/fontawesome/js/all.min.js"></script>
+    <script src="./lib/bootstrap-4.5.3-dist/js/bootstrap.min.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+
+</html>
